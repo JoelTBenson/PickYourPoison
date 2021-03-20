@@ -11,7 +11,7 @@ The use of this application is aimed at both home mixologists looking to try the
 ## Main Components:
 - The use of two server-side APIs:
     - [OpenWeather](https://openweathermap.org/api)
-    - [TheCocktailDB] (https://www.thecocktaildb.com/)
+    - [TheCocktailDB](https://www.thecocktaildb.com/)
 - Use of CSS framework [Bulma](https://bulma.io/)
 - Interactive components
     - Input box for users city name
