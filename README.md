@@ -4,7 +4,7 @@
 [Link to the application](NEED TO PUT DEPLOYED LINK HERE)
 <img src= "WE PUT THE SCREENSHOT HERE">
 
-The idea of **Pick Your Poison** is simple - to provide a quick drink recommendation and recipe based on your local weather. This web-based application combines the basic aesthetic elements of HTML and CSS, and employs Javascript to pair the local weather and with a drink recommendation and its corresponding recipe. 
+The idea of **Pick Your Poison** is simple - to provide a quick drink recommendation and recipe based on your local weather. This web-based application combines the basic aesthetic elements of HTML and CSS, and employs Javascript to pair the local weather with a drink recommendation and its corresponding recipe. 
 
 The use of this application is aimed at both home mixologists looking to try their hand at a new drink as well as barkeeps needing inspiration for their drink of the day. Below you can find some of the main features of Pick Your Poison.
 
@@ -19,7 +19,7 @@ The use of this application is aimed at both home mixologists looking to try the
 - Responsive interface
 
 ## Results: 
-The current state of Pick Your Poison meets the expected technical criteria while also satisfing the intended user's expectations. Once the user arrives to the site they can input their city name or zip code and retrieve the current weather in their desired location from the OpenWeather API. Once the weather is retrived, it is then automatically matched with its corresponding array powered by the TheCocktailDB and the user is presented with their randomized drink recommendation. After viewing the drink name and photo, the user then has the choice to view the drink recipe by clicking the *View Recipe* button under the drink image. If the user would like receive another recipe, they can simply re-enter their location and be presented with another recommendation.
+The current state of Pick Your Poison meets the expected technical criteria while also satisfing the intended users expectations. Once the user arrives to the site they can input their city name and retrieve the current weather in their desired location from the OpenWeather API. Once the weather is retrived, it is then automatically matched with its corresponding array powered by the TheCocktailDB and the user is presented with their randomized drink recommendation. After viewing the drink name and photo, the user then has the choice to view the drink recipe by clicking the *View Recipe* button under the drink image. If the user would like receive another recipe, they can simply re-enter their location and be presented with another recommendation.
 
 ## What's Next? (Future Applications):
 Due to the limited time scope that this application was completed in the following optional features, while considered, were not included in the current product.
