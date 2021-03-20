@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pick Your Poison</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+</head>
+<body>
+  <!-- Here is the header -->
+    <section class="hero is-primary">
+      <div class="hero-body">
+        <p class="title has-text-centered is-size-1 pb-3">
+          Pick Your Poison
+        </p>
+        <p class="subtitle has-text-centered">
+          Let the weather pick your drink for you
+        </p>
+      </div>
+    </section>
+<!-- City input below (left side is instructions, right side is input box and button) -->
+<div class="columns is-desktop">
+  <div class="column"></div>
+<div class="column">
+      <!-- Instructions -->
+      <p class="pt-6 is-size-4 has-text-centered has-text-primary">
+          Enter your city name to see your recommended drinks
+        </p>
+  </div>
+  <div class="column">
+      <!-- Input box and button -->
+      <div class="field pb-3 pt-6">
+          <input id="userInput" class="input is-primary is-medium" type="text" placeholder="Please type your city name..." 
+          >
+        </div>
+        <button id="weatherButton" class="button is-primary is-outlined has-text-black  is-rounded city-button"  >Pick Your Poison</button>
+  </div>
+  <div class="column"></div>
+</div>
+<!-- Here is where the weather info will be displayed depending on what we would like to include -->
+<div class="container" id="issues">
+  <p class="is-size-4 has-text-centered has-text-primary has-background-primary-light">  Here is the weather</p>
+</div>
+<!-- Three recommended drinks -->
+<div class="columns is-centered is-desktop">
+  <div class="column is-6">
+      <div class="tile is-parent has-text-centered p-5">
+          <article class="tile is-child box">
+            <p id = "drink1Name" class="drinkNames is-size-2 mb-5 has-text-primary">Drink Name 1</p>
+            <figure class="image is-4by3">
+              <img id = "image" src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+            </figure>
+            <!-- Button to open the modal -->
+            <button class="button is-primary is-outlined has-text-black is-rounded mt-4 recipe-button" id="btn">View Recipe</button>
+          </article>
+        </div>
+  </div>
+</div>
+
+
+
+  <!-- Modal that pops up when you click the "Recipe" button under recommended drinks -->
+    <div class="modal" id="recipeModal">
+      <div class="modal-background"></div>
+      <div class="modal-card">
+        <header class="modal-card-head">
+          <p id = "modalName" class="modal-card-title">Modal title</p>
+          <button class="delete" aria-label="close" data-bulma-modal="close"></button>
+        </header>
+        <section class="modal-card-body">
+          <p class="drinkNames is-size-3 mb-5 has-text-primary">Recipe</p>
+          <p id="recipe">There is something here</p>
+          <p class="drinkNames is-size-3 mb-5 has-text-primary">Ingredients</p>
+          <p id="ingredients">There is something here</p>          
+        </section>
+      </div>
+    </div>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="content has-text-centered " >
+      <p>
+        <strong>Pick Your Poison</strong> by <a href="https://github.com/JoelTBenson">Joel Benson</a>, <a href="https://github.com/dtmerrill">Dana Merrill</a>, <a href="https://github.com/mikeyhauser">Mikey Hauser</a>, and <a href="https://github.com/Hannybiggs">Hannah Biggam</a>.
+      </p>
+    </div>
+  </footer>
+</body>
+<script src="pickyourpoison.js"></script>
+</html>
